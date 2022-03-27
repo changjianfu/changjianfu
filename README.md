@@ -1,2 +1,0 @@
-# fumath.github.io
-Homepage
