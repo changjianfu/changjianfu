@@ -2,42 +2,42 @@ var fontColor = '#ffffff';
         
 $("#pub").hide();
 $("#talk").hide();
-$("#award").hide();
-$("#contact").hide();
+$("#teach").hide();
+$("#link").hide();
 $("#aboutButton").click(function() {
     $("#pub").hide("slow");
     $("#talk").hide("slow");
-    $("#award").hide("slow");
-    $("#contact").hide("slow");
+    $("#teach").hide("slow");
+    $("#link").hide("slow");
     $("#about").show("slow");
 });
 $("#pubButton").click(function() {
     $("#about").hide("slow");
     $("#talk").hide("slow");
-    $("#award").hide("slow");
-    $("#contact").hide("slow");
+    $("#teach").hide("slow");
+    $("#link").hide("slow");
     $("#pub").show("slow");
 });
 $("#talkButton").click(function() {
     $("#about").hide("slow");
     $("#pub").hide("slow");
-    $("#award").hide("slow");
-    $("#contact").hide("slow");
+    $("#teach").hide("slow");
+    $("#link").hide("slow");
     $("#talk").show("slow");
 });
-$("#awardButton").click(function() {
+$("#teachButton").click(function() {
     $("#pub").hide("slow");
     $("#talk").hide("slow");
     $("#about").hide("slow");
-    $("#contact").hide("slow");
-    $("#award").show("slow");
+    $("#link").hide("slow");
+    $("#teach").show("slow");
 });
-$("#contactButton").click(function() {
+$("#linkButton").click(function() {
     $("#pub").hide("slow");
     $("#talk").hide("slow");
-    $("#award").hide("slow");
+    $("#teach").hide("slow");
     $("#about").hide("slow");
-    $("#contact").show("slow");
+    $("#link").show("slow");
 });
 $("div#menu > ul li").mouseover(function() {
     $(this).animate({
