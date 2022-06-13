@@ -20,10 +20,13 @@ h1 {
 	font-size: 70px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	cursor: default;
+	
 }
 
-h2 {
+h2 {font-size: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	cursor: default;
 }
 
 h3 {
@@ -45,7 +48,7 @@ a {
 #mainBlock {
 	width: 920px;
 	height: 1000px;
-	margin: 0px auto;
+	margin: 20px auto;
 	text-align: center;
 	border-color: red;
 	border-width: 20px;	
