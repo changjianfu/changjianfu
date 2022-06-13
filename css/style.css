@@ -10,8 +10,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 body {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	font-family: 'calibri', sans-serif;
 	font-size: 18px;
 }
@@ -20,20 +20,20 @@ h1 {
 	font-size: 70px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	padding-left: 500px;
+	padding-left: 50px;
 	
 }
 
 h2 {font-size: 50px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	padding-left: 500px;
+	padding-left: 50px;
 	cursor: default;
 }
 
 h3 {
 	text-align: left;
-	padding-left: 500px;
+	padding-left: 50px;
 }
 
 p {
