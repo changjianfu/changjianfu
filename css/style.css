@@ -5,6 +5,60 @@ body {
     margin-left: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#menu {
+	width: 150px;
+	height: 400px;
+	/*background-color: grey;*/
+	position: absolute;
+}
+
+#footer {
+    background-color:black;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+div#menu > ul li {
+	text-align: left;
+	padding: 10px 0px;
+	color: #999;
+}
+
+div#menu > ul li:hover {
+}
+
+.mainText {
+	width: 770px;
+	height: 1050px;
+	margin: 0px auto;
+	float: right;
+}
+
+.mainText a {
+	color: #1C8FE1;
+	text-decoration: underline;
+}
+
+.mainText a:hover {
+	color: #E1899F;
+}
+
+.mainText p {
+	text-align: justify;
+	padding-left: 20px;
+}
+
+.mainText li {
+	text-align: left;
+	padding-left: 20px;
+	line-height: 150%;
+	margin: 10px;
+}
+
+.mainText li:before {
+	content: " - ";
+}
 
 table {
     margin-right: auto;
