@@ -294,6 +294,20 @@
 		
 </div>
 <script type="text/javascript" src="./script.js"></script>
+
+<%
+if(session.getAttribute("visit")==null){
+	session.setAttribute("visit", "y");//将未访问设置为访问
+	String strCount = (String) application.getAttribute("count");
+	int count =0;
+	if(strCount!=null)
+		count = Integer.parseInt(strCount)+1;
+	else 
+		count++;
+	application.setAttribute("count",String.valueOf(count));
+%>
+<%}%>
+您是第<%=application.getAttribute("count") %>位访问者！
 			</body>
 
 </html>
