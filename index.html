@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
 <head>
@@ -6,6 +6,7 @@
 		<script src="https://code.jquery.com/jquery-latest.js"></script>
 		<script src="https://www.bitstorm.org/jquery/color-animation/jquery.animate-colors-min.js"></script>
 		 <link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		
 		<link rel="icon" type="image/jpg" href="Icon/art.png">
 		<title>Changjian Fu's homepage</title>
@@ -294,7 +295,19 @@
 		
 </div>
 <script type="text/javascript" src="./script.js"></script>
-
+<%
+if(session.getAttribute("visit")==null){
+	session.setAttribute("visit", "y");//将未访问设置为访问
+	String strCount = (String) application.getAttribute("count");
+	int count =0;
+	if(strCount!=null)
+		count = Integer.parseInt(strCount)+1;
+	else 
+		count++;
+	application.setAttribute("count",String.valueOf(count));
+%>
+<%}%>
+您是第<%=application.getAttribute("count") %>位访问者！
 			</body>
 
 </html>
